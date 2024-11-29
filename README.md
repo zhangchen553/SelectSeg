@@ -1,9 +1,20 @@
 # SelectSeg
-selective crack image segmentation
+This repository contains the codes for selective crack image segmentation. The methodology hereby implemented was presented in the paper:
+
+
 
 Each of the main.py has it corresponding config.py  
 E.g: e_main.py —> a_config.py  
 All main.py can run independently.
+
+## Envrionment
+conda create -n topo_crack_detection python=3.7
+
+conda activate topo_crack_detection
+
+pip install -r requirements.txt
+
+pip3 install torch torchvision
 
 ## First stage:
 Run e_main.py several time to train multiple models with different random seeds.  
