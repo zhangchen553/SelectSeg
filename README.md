@@ -8,13 +8,13 @@ E.g: e_main.py —> a_config.py
 All main.py can run independently.
 
 ## Envrionment
-conda create -n topo_crack_detection python=3.7
+`conda create -n topo_crack_detection python=3.7`
 
-conda activate topo_crack_detection
+`conda activate topo_crack_detection`
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-pip3 install torch torchvision
+`pip3 install torch torchvision`
 
 ## First stage:
 Run e_main.py several time to train multiple models with different random seeds.  
