@@ -8,9 +8,9 @@ E.g: e_main.py —> a_config.py
 All main.py can run independently.
 
 ## Envrionment
-`conda create -n topo_crack_detection python=3.7`
+`conda create -n sel_seg python=3.10`
 
-`conda activate topo_crack_detection`
+`conda activate sel_seg`
 
 `pip install -r requirements.txt`
 
