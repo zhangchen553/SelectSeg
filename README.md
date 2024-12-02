@@ -100,7 +100,11 @@ Run the following scripts:
 If you would like to apply selective evaluation, run the script: `python e_cps_main_script.py`  
 The model will be saved in the `Results_CRACK500/cps_50pct` directory.
 
-## 6. Selective Evaluation - Fourth stage (optional):
+## 6. Evaluation:
+### 6.1 Regular Evaluation:
+`python f_evaluation.py --c_ratio=xx`
+
+### 6.2 Selective Evaluation - Fourth stage (optional):
 `python c_ann_score.py --c_ratio=xx --flag=test_`  
 `python g_sel_eval.py --c_ratio=xx --flag=test_`  
 The script will output the evaluation results in the `Results_CRACK500/cps_xx_pct` directory.
