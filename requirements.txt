@@ -1,0 +1,11 @@
+tensorboard
+segmentation-models-pytorch
+tqdm
+opencv-python
+imutils
+albumentations
+matplotlib
+pandas
+scikit-learn
+imgaug
+numpy==1.26.0
