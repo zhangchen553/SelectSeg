@@ -1,4 +1,4 @@
-# SelectSeg
+# SelectSeg: Uncertainty-based selective training and prediction for accurate crack segmentation under limited data and noisy annotations
 This repository contains the codes for selective crack image segmentation. The methodology hereby implemented was presented in the paper:
 
 ![Framework](/images/framework.png "Framework")
@@ -129,6 +129,7 @@ Please refer to the Segmentation Model Pytorch [repository](https://github.com/q
 
 ## 9. Citation
 If you find this repository useful, please cite the following paper:
+https://doi.org/10.1016/j.ress.2025.110909
 ```
 @article{
 
